@@ -4,6 +4,32 @@
   box-sizing: border-box;
 }
 
+.nav2 {
+  margin-top: 55px;
+  background: #20c997;
+}
+
+.nav2 .nav-item {
+  text-align: center;
+}
+.nav1 {
+  z-index: 100000;
+}
+
+@media  screen and (min-width:990px) {
+  .nav2 {
+    margin-top: 75px;
+    height: 20px;
+  }
+
+  
+}
+
+#navbarSupportedContent {
+  color: black;
+  justify-content: center;
+}
+
 .theme p {
   padding: 0;
   margin-bottom: 10px;
@@ -22,4 +48,8 @@
 
 .article {
   margin: 50px;
+}
+
+section {
+  padding-top: 130px;
 }
