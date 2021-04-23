@@ -11,18 +11,26 @@
 
 .nav2 .nav-item {
   text-align: center;
+  padding-bottom: 0;
+  padding-left: 5px;
+  padding-right: 5px;
 }
+
+.nav2 .nav-item:hover {
+  background:white;
+}
+
 .nav1 {
   z-index: 100000;
 }
- .nav1 a:hover:not(:first-child) {
+ #nav1 a:hover {
    background:#20c997;
  }
 
 @media  screen and (min-width:990px) {
   .nav2 {
     margin-top: 75px;
-    height: 20px;
+    height: 30px;
   }  
 }
 
